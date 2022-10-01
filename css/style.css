@@ -1,0 +1,308 @@
+.text-color {
+  background-color: #fff;
+  color: #000;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  z-index: 111;
+}
+header .container {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  left: 0;
+}
+header .container .navbar .header-menu ul.navbar-nav li {
+  padding-right: 50px;
+}
+header .container .navbar .header-menu ul.navbar-nav li a {
+  color: inherit;
+  line-height: 80px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+header .container .navbar .header-menu ul.navbar-nav li:hover a {
+  color: #b61984;
+}
+header .container .navbar .header-menu button {
+  color: white;
+  padding: 10px 15px;
+  background-color: #b61984;
+  transition: all 1s;
+  margin-right: 10px;
+}
+header .container .navbar .header-menu button:hover {
+  background-color: #fff;
+  color: #b61984;
+  border: 1px solid #b61984;
+}
+header .container .navbar .header-menu .icon {
+  transition: all 0.5s;
+  padding-right: 10px;
+  font-size: 15px;
+}
+header .container .navbar .header-menu .icon:hover {
+  color: #b61984;
+}
+
+.about {
+  position: relative;
+  padding: 60px 0px;
+}
+.about .container .about-content {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.about .container .about-content .about-left p {
+  color: #b61984;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.about .container .about-content .about-left h1 {
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.about .background-top {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 0;
+}
+.about .background-top img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+.about .background-bottom {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  bottom: 0;
+}
+.about .background-bottom img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.member {
+  background-color: #dcd1f3;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/Wave_White_bottom_right_shape_01.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.member .container .member-list .member-item {
+  padding: 20px 25px;
+}
+.member .container .member-list .member-item div {
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.member .container .member-list .member-item div img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  transition: all 0.5s;
+}
+.member .container .member-list .member-item div img:hover {
+  transform: scale(1.1);
+}
+.member .container .member-list .member-item div .member-title {
+  padding: 30px;
+}
+.member .container .member-list .member-item div .member-title .ptitle {
+  color: #b61984;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+.member .container .member-list .member-item div .member-title h4 {
+  color: rgb(24, 24, 24);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.member .container .member-list .member-item div .member-title .pcontent {
+  color: rgb(24, 24, 24);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.member .container .member-list .member-item div:hover {
+  box-shadow: 2px 10px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  margin: 0;
+  background-image: url(../images/accent_bottom_wave_01.png);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.form .container .form-content {
+  display: flex;
+  justify-content: center;
+}
+.form .container .form-content .form-right {
+  padding: 10px;
+}
+.form .container .form-content .form-right .box-form {
+  background-color: #fff;
+  width: 400px;
+  box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+.form .container .form-content .form-right .box-form h4 {
+  line-height: 45px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.form .container .form-content .form-right .box-form form .btContactRow {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+.form .container .form-content .form-right .box-form form .btContactRow button {
+  color: white;
+  padding: 10px 30px;
+  background-color: #b61984;
+  transition: all 1s;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: 1px solid #b61984;
+}
+.form .container .form-content .form-right .box-form form .btContactRow button:hover {
+  background-color: #fff;
+  color: #b61984;
+  border: 1px solid #b61984;
+}
+.form .container .form-content .form-right .box-form form .btContactRow .btContactName {
+  width: 100%;
+  position: relative;
+}
+.form .container .form-content .form-right .box-form form .btContactRow .btContactName .icon {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  line-height: 1;
+  color: #b61984;
+}
+.form .container .form-content .form-right .box-form form .btContactRow .btContactName .textfield input,
+.form .container .form-content .form-right .box-form form .btContactRow .btContactName .textfield textarea,
+.form .container .form-content .form-right .box-form form .btContactRow .btContactName .textfield select {
+  padding: 12px 12px 12px 42px;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  line-height: 1;
+  display: block;
+  color: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #aa017e;
+  margin-top: -2px;
+  padding-top: 120px;
+  padding-bottom: 250px;
+  background-image: url(../images/footer_background.jpg);
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+footer .container .footer-content .row {
+  color: #fff;
+}
+footer .container .footer-content .row .item1 .h5title h5,
+footer .container .footer-content .row .item .h5title h5 {
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+footer .container .footer-content .row .item1 .nd p span,
+footer .container .footer-content .row .item .nd p span {
+  padding-left: 10px;
+}
+footer .container .footer-content .row .item1 .nd ul,
+footer .container .footer-content .row .item .nd ul {
+  margin: 0;
+  padding: 0;
+}
+footer .container .footer-content .row .item1 .nd ul li,
+footer .container .footer-content .row .item .nd ul li {
+  display: block;
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 0px;
+}
+footer .container .footer-content .row .item1 .nd ul li a,
+footer .container .footer-content .row .item .nd ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .container .footer-content .row .item1 .nd ul li a:hover,
+footer .container .footer-content .row .item .nd ul li a:hover {
+  color: rgba(255, 255, 255, 0.749);
+}
+footer .container .footer-content .row .item1 .nd div input,
+footer .container .footer-content .row .item .nd div input {
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+  background: transparent;
+  line-height: 1;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+footer .container .footer-content .row .item1 .nd div input::-moz-placeholder, footer .container .footer-content .row .item .nd div input::-moz-placeholder {
+  color: #fff;
+}
+footer .container .footer-content .row .item1 .nd div input:-ms-input-placeholder, footer .container .footer-content .row .item .nd div input:-ms-input-placeholder {
+  color: #fff;
+}
+footer .container .footer-content .row .item1 .nd div input::placeholder,
+footer .container .footer-content .row .item .nd div input::placeholder {
+  color: #fff;
+}
+footer .container .footer-content .row .item1 .nd div input:focus,
+footer .container .footer-content .row .item .nd div input:focus {
+  outline: none;
+  border-color: #fff;
+}
+footer .container .footer-content .row .item1 .nd div button,
+footer .container .footer-content .row .item .nd div button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px 0px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+footer .container .footer-content .row .item1 .nd div button:hover,
+footer .container .footer-content .row .item .nd div button:hover {
+  color: #fff;
+  background-color: #aa017e;
+}
+footer .container .footer-content .row .item1 .icon-list .icon,
+footer .container .footer-content .row .item .icon-list .icon {
+  padding: 10px;
+}
